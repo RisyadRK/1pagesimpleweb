@@ -1,0 +1,172 @@
+.container {
+  max-width: 1650px;
+  max-height: 1200px;
+  margin: 20px auto;
+  background: transparent;
+  overflow: hidden;
+  padding: 10px;
+}
+
+body {
+  background-image: url("gambar1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.header {
+  border: 0px solid #dedede;
+  padding: 10px;
+  margin: 10px;
+}
+
+.search {
+  margin-top: -20px;
+  margin-right: 130px;
+  float: right;
+  padding: 30px;
+}
+input {
+  height: 45px;
+  width: 500px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.logonav {
+  margin-right: 0px;
+  margin-top: 0px;
+  color: white;
+  float: right;
+}
+
+.header ul {
+  position: absolute;
+  list-style: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.header li {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s background-color;
+}
+
+.header a:hover {
+  background-color: orange;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.header a.active {
+  border-radius: 25px 25px 25px 25px;
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .header li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .header li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  /* Bagian Main */
+  .main {
+    margin-top: 170px;
+  }
+  .left {
+    width: 950px;
+    background: transparent;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    font-size: 75px;
+    font-family: arial;
+    color: white;
+    line-height: 0.4em;
+    text-shadow: 7px 7px 10px black;
+  }
+  button {
+    background: #00ced1;
+    height: 70px;
+    width: 330px;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+  button p {
+    font-size: 22px;
+    color: white;
+  }
+
+  .footer1 {
+    height: 100px;
+    background: #2d2d2d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #808080;
+  }
+}
+.footer1 p {
+  padding-left: 150px;
+  color: white;
+}
+
+.logofooter {
+  padding-top: 10px;
+  padding-right: 400px;
+  margin-right: 300px;
+  margin: 3px;
+  float: right;
+}
+h4 {
+  color: white;
+  margin-right: -200px;
+  margin-top: 25px;
+  float: right;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  ...;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}
